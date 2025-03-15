@@ -17,6 +17,11 @@ a {
   color: #4d5ae5;
 }
 
+.address {
+  font-style: normal;
+  color: #434455;
+}
+
 /* -----------HEADER------------ */
 .header {
 }
@@ -31,6 +36,9 @@ a {
   color: #2e2f42;
 }
 
+.span {
+  color: #4d5ae5;
+}
 .header-menu-list {
 }
 
@@ -49,7 +57,8 @@ a {
 .header-menu-link:focus {
   color: #404bbf;
 }
-.header-menu-link .studio:active {
+
+.header-menu-link:active {
   color: #404bbf;
   text-decoration: underline;
 }
@@ -64,29 +73,38 @@ a {
 .header-address-list {
 }
 
-.header-address-email {
-}
-
-.header-address-link-email:hover,
-.header-address-link-email:focus {
-  color: #404bbf;
-}
-
-.header-laddress-ink-email {
+.header-address-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.header-address-phone {
-}
-
-.header-address-link-phone:hover,
-.header-address-link-phone:focus {
+.header-address-item:hover,
+.header-address-item:focus {
   color: #404bbf;
 }
-.header-address-link-phone {
+
+.header-address-email:hover,
+.header-address-email:focus {
+  color: #404bbf;
+}
+
+.header-address-email {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-address-item {
+}
+
+.header-address-phone:hover,
+.header-address-phone:focus {
+  color: #404bbf;
+}
+.header-address-phone {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -118,6 +136,8 @@ a {
   cursor: pointer;
 }
 
+.her-btn:hover,
+.hero-btn:focus,
 .hero-btn:active {
   background-color: #404bbf;
 }
@@ -160,12 +180,14 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .our-team-list {
 }
 
 .our-team-item {
+  background-color: #ffffff;
 }
 
 .our-team-image {
@@ -231,6 +253,10 @@ a {
   color: #f4f4fd;
 }
 .logo-footer {
+  color: #4d5ae5;
+}
+
+.span {
   color: #f4f4fd;
 }
 .accent {
