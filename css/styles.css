@@ -24,6 +24,7 @@ a {
 
 /* -----------HEADER------------ */
 .header {
+  color: #2e2f42;
 }
 
 .logo {
@@ -44,14 +45,13 @@ span .accent {
 }
 
 .header-menu-item {
+}
+
+.header-menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.header-menu-link {
   color: #2e2f42;
 }
 
@@ -66,19 +66,9 @@ span .accent {
 }
 
 .header-address {
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .header-address-list {
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .header-address-item {
@@ -94,11 +84,12 @@ span .accent {
   color: #404bbf;
 }
 
-.header-address-link:hover,
-.header-address-link:focus {
-}
-
 .header-address-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .header-address-item {
@@ -106,6 +97,7 @@ span .accent {
 
 .header-address-link:hover,
 .header-address-link:focus {
+  color: #404bbf;
 }
 
 .header-address-link {
