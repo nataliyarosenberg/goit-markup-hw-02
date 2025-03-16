@@ -65,14 +65,14 @@ span .accent {
   text-decoration: underline;
 }
 
-.header-address {
+address {
+  font-style: normal;
 }
 
 .header-address-list {
 }
 
 .header-address-item {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -244,13 +244,13 @@ span .accent {
 /* --------------FOOTER------------------ */
 
 .footer {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   background-color: #2e2f42;
   color: #f4f4fd;
 }
 .logo .logo-footer {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 
