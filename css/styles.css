@@ -33,9 +33,12 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae52;
 }
 
+span .accent {
+  color: #2e2f42;
+}
 .header-menu-list {
   color: #2e2f42;
 }
@@ -49,6 +52,7 @@ a {
 }
 
 .header-menu-link {
+  color: #2e2f42;
 }
 
 .header-menu-link:hover,
@@ -70,31 +74,41 @@ a {
 }
 
 .header-address-list {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .header-address-item {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
-.header-address:hover,
-.header-address:focus {
+.header-address-item:hover,
+.header-address-item:focus {
   color: #404bbf;
 }
 
-.header-address-email:hover,
-.header-address-email:focus {
+.header-address-link:hover,
+.header-address-link:focus {
 }
 
-.header-address-email {
+.header-address-link {
 }
 
 .header-address-item {
 }
 
-.header-address-phone:hover,
-.header-address-phone:focus {
+.header-address-link:hover,
+.header-address-link:focus {
 }
 
-.header-address-phone {
+.header-address-link {
 }
 
 /* -----------HEADER------------ */
