@@ -14,7 +14,7 @@ a {
 }
 
 .accent {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .address {
@@ -34,6 +34,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 span .accent {
@@ -249,12 +250,12 @@ address {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
-.logo .logo-footer {
-  color: #f4f4fd;
+.logo {
+  color: #4d5ae5;
 }
 
 span .accent {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 .footer-text {
 }
